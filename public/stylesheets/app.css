@@ -15,3 +15,28 @@
 .carousel-control-next-icon {
   background-color: #eb8df7;
 }
+
+ul {
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.navbar-nav {
+  margin-top: 3rem;
+}
+
+.navbar-toggler {
+  margin: auto;
+}
+
+.nav-link {
+  margin: auto;
+}
+
+.backToItem {
+  text-decoration: none;
+  cursor: pointer;
+}
