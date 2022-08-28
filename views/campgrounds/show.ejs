@@ -72,11 +72,15 @@
       </div>
 
       <%}else {%>
+      <div class="card-footer text-muted">
+        Submitted by <%=campground.author.username%>
+      </div>
       <form action="">
         <div class="d-grid gap-2 col-6 mx-auto">
           <button class="btn btn-primary" type="button">Purchase</button>
         </div>
       </form>
+
       <%}%>
     </div>
   </div>
